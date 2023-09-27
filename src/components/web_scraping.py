@@ -19,3 +19,5 @@ books = driver.find_elements(By.CLASS_NAME, 'category-page__member-link')
 #print(books[6].text) # Books got extracted
 #print(books[0].get_attribute('href')) # Links for books
 driver.get(books[0].get_attribute('href')) # Access the link
+characters = driver.find_elements(By.CLASS_NAME, 'article-table') 
+print(characters[1].text)
