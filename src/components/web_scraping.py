@@ -18,6 +18,15 @@ from selenium.webdriver.common.by import By
 books = driver.find_elements(By.CLASS_NAME, 'category-page__member-link') 
 #print(books[6].text) # Books got extracted
 #print(books[0].get_attribute('href')) # Links for books
+time.sleep(3)
 driver.get(books[0].get_attribute('href')) # Access the link
 characters = driver.find_elements(By.CLASS_NAME, 'article-table') 
-print(characters[1].text)
+#print(characters[1].text)
+
+# Creating a dictionary of books and URLs
+books_url_dict = []
+for category in books:
+    book_url = driver.get(category.get_attribute('href'))
+    book_name = category.text
+    books_url_dict.append({'book_name':book_name, 'url':book_url})
+print(books_url_dict)
