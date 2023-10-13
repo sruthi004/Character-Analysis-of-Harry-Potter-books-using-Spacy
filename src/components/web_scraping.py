@@ -48,3 +48,15 @@ driver.get(books[1].get_attribute('href')) # Access the link
 #char_nums = driver.find_elements(By.ID, 'sticky-toc')
 char_nums = driver.find_elements(By.XPATH, '//*[@id="mw-content-text"]/div/ul')
 print(char_nums[0].text)
+
+# Extract characters (Part 2)
+time.sleep(3)
+char_list_2 = []
+for book in books_url_dict:
+    # go to book page
+    driver.get(book['url'])
+    
+    char_elems = driver.find_elements(By.XPATH, '//*[@id="mw-content-text"]/div/ul')
+    for elem in char_elems:
+        char_list_2.append({'book':book['book_name'],'character':elem.text})
+print(char_list_2[0])
