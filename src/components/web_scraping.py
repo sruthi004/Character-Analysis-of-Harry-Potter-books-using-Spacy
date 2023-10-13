@@ -40,4 +40,11 @@ for book in books_url_dict:
     char_elems = driver.find_elements(By.CLASS_NAME, 'article-table')
     for elem in char_elems:
         char_list.append({'book':book['book_name'],'character':elem.text})
-char_list
+print(char_list[0])
+
+time.sleep(3)
+driver.get(books[1].get_attribute('href')) # Access the link
+#char_nums = driver.find_elements(By.CLASS_NAME, 'toc sticky-toc wds-is-hidden')
+#char_nums = driver.find_elements(By.ID, 'sticky-toc')
+char_nums = driver.find_elements(By.XPATH, '//*[@id="mw-content-text"]/div/ul')
+print(char_nums[0].text)
