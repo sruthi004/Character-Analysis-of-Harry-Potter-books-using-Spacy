@@ -12,5 +12,6 @@
 
 **Inferences:**
 * Strongest relationship was seen for the below characters.
+
 ![image](https://github.com/sruthi004/Character-Analysis-of-Harry-Potter-books-using-Spacy/assets/98512121/fd555d01-84f3-431c-8155-af4552927116)
 
