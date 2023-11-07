@@ -13,16 +13,17 @@ from utils import *
 # Pipeline for getting graph for each of the 7 books
 
 # Load spacy english language model
-NER = spacy.load('en_core_web_sm')
+NER = spacy.load('en_core_web_sm') #,disable=['parser', 'tagger','ner']
+NER.max_length = 1562040
 
 # Load and process web scraped csv file
-names = process_csv("C:\\Users\\sruth\\Desktop\Work\\Git_projects\\Character Analysis of Harry Potter books using Spacy\\characters.csv")
+names = process_csv("Character Analysis of Harry Potter books using Spacy\\characters.csv")
 
 # Load all books from path
-all_books = [i for i in os.scandir("C:\\Users\\sruth\\Desktop\\Work\\Git_projects\\Character Analysis of Harry Potter books using Spacy\\books") if '.pdf' in i.name]
+all_books = [i for i in os.scandir("Character Analysis of Harry Potter books using Spacy\\books") if '.pdf' in i.name]
 books_graph = []
-for book in range(1,2): #all_books
-    text = get_text(all_books[book])
+for book in all_books: #
+    text = get_text(book)
     book_doc = NER(text)
     entity_df = get_entity(book_doc)
 
@@ -41,12 +42,13 @@ for book in range(1,2): #all_books
                                create_using = nx.Graph())
 
     books_graph.append(graph)
-print(books_graph)
-# # Creating a list of degree centrality of all the books
-# evol = [nx.degree_centrality(book) for book in books_graph]
 
-# # Creating a DataFrame from the list of degree centralities in all the books
-# degree_evol_df = pd.DataFrame.from_records(evol)
 
-# # Plotting the degree centrality evolution of 5 main characters
-# degree_evol_df[["Harry", "Ron", "Hermione", "Dumbledore", "Voldemort"]].plot()
+# Creating a list of degree centrality of all the books
+evol = [nx.degree_centrality(book) for book in books_graph]
+
+# Creating a DataFrame from the list of degree centralities in all the books
+degree_evol_df = pd.DataFrame.from_records(evol)
+
+# Plotting the degree centrality evolution of 5 main characters
+degree_evol_df[["Harry", "Ron", "Hermione", "Dumbledore", "Voldemort"]].plot()
