@@ -32,11 +32,12 @@
 
 ![image](https://github.com/sruthi004/Character-Analysis-of-Harry-Potter-books-using-Spacy/assets/98512121/9c8c0bb6-9d13-43aa-86fa-94604b59b76d)
 
-* Finally graphs were plotted with the characters extracted from all 7 books using NetworkX and Pyvis.
+* Finally, graphs were plotted with the characters extracted from all 7 books using NetworkX and Pyvis.
 
 ![image](https://github.com/sruthi004/Character-Analysis-of-Harry-Potter-books-using-Spacy/assets/98512121/f4aff0fe-e3bb-445f-9a6e-583f3af3e8e1)
 
-![download](https://github.com/sruthi004/Character-Analysis-of-Harry-Potter-books-using-Spacy/assets/98512121/21b5abd1-28d5-4ab2-a123-2210da29cc5e)
+![image](https://github.com/sruthi004/Character-Analysis-of-Harry-Potter-books-using-Spacy/assets/98512121/9bdf4cc2-ef67-41a0-9dc9-8cdac44a490c)
+
 
 
 
