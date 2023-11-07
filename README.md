@@ -22,3 +22,21 @@
 * Overall, the importance of top characters varies as shown in the below graph.
 
 ![image](https://github.com/sruthi004/Character-Analysis-of-Harry-Potter-books-using-Spacy/assets/98512121/2ff60a95-8877-420f-b4b0-5751d2aae7f4)
+
+* **Centrality measures** are a vital tool for understanding networks, often also known as graphs. These algorithms use graph theory to calculate the importance of any given node in a network.
+* Three centrality measures were calculated : Degree_centrality, Betweenness_centrality, Closeness_centrality.
+
+![image](https://github.com/sruthi004/Character-Analysis-of-Harry-Potter-books-using-Spacy/assets/98512121/46201aef-44ef-4631-b1a1-c576c0e10183)
+
+![image](https://github.com/sruthi004/Character-Analysis-of-Harry-Potter-books-using-Spacy/assets/98512121/07b66b73-7c8b-4159-b4bc-1531388ecb40)
+
+![image](https://github.com/sruthi004/Character-Analysis-of-Harry-Potter-books-using-Spacy/assets/98512121/9c8c0bb6-9d13-43aa-86fa-94604b59b76d)
+
+* Finally graphs were plotted with the characters extracted from all 7 books using NetworkX and Pyvis.
+
+![image](https://github.com/sruthi004/Character-Analysis-of-Harry-Potter-books-using-Spacy/assets/98512121/f4aff0fe-e3bb-445f-9a6e-583f3af3e8e1)
+
+![download](https://github.com/sruthi004/Character-Analysis-of-Harry-Potter-books-using-Spacy/assets/98512121/21b5abd1-28d5-4ab2-a123-2210da29cc5e)
+
+
+
