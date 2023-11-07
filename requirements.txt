@@ -3,3 +3,6 @@ numpy
 selenium
 webdriver_manager
 spacy
+networkx
+PyPDF2
+pyvis
