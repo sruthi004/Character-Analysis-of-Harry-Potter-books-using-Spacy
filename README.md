@@ -13,7 +13,7 @@
 **Inferences:**
 * Strongest relationship was seen for the below characters.
 
-![image](https://github.com/sruthi004/Character-Analysis-of-Harry-Potter-books-using-Spacy/assets/98512121/fd555d01-84f3-431c-8155-af4552927116)
+![image](https://github.com/sruthi004/Character-Analysis-of-Harry-Potter-books-using-Spacy/assets/98512121/0871cd9d-7198-49dc-8929-863dc3c953c9)
 
 * Throughout the books, Voldemort seems to have the strongest relationship with the below characters.
 
