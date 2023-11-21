@@ -17,26 +17,26 @@
 
 * Throughout the books, Voldemort seems to have the strongest relationship with the below characters.
 
-![image](https://github.com/sruthi004/Character-Analysis-of-Harry-Potter-books-using-Spacy/assets/98512121/da818355-ba64-4a36-a53b-9413ae736584)
+![image](https://github.com/sruthi004/Character-Analysis-of-Harry-Potter-books-using-Spacy/assets/98512121/8a26980a-ae8b-46ec-8b36-7eaba276a4a7)
 
 * Overall, the importance of top characters varies as shown in the below graph.
 
-![image](https://github.com/sruthi004/Character-Analysis-of-Harry-Potter-books-using-Spacy/assets/98512121/2ff60a95-8877-420f-b4b0-5751d2aae7f4)
+![image](https://github.com/sruthi004/Character-Analysis-of-Harry-Potter-books-using-Spacy/assets/98512121/af7ed68c-b5d2-4996-b425-1fdf741601f7)
 
 * **Centrality measures** are a vital tool for understanding networks, often also known as graphs. These algorithms use graph theory to calculate the importance of any given node in a network.
 * Three centrality measures were calculated : Degree_centrality, Betweenness_centrality, Closeness_centrality.
 
-![image](https://github.com/sruthi004/Character-Analysis-of-Harry-Potter-books-using-Spacy/assets/98512121/46201aef-44ef-4631-b1a1-c576c0e10183)
+![image](https://github.com/sruthi004/Character-Analysis-of-Harry-Potter-books-using-Spacy/assets/98512121/50eb36a5-7893-4c0b-8185-9cf627c19c65)
 
-![image](https://github.com/sruthi004/Character-Analysis-of-Harry-Potter-books-using-Spacy/assets/98512121/07b66b73-7c8b-4159-b4bc-1531388ecb40)
+![image](https://github.com/sruthi004/Character-Analysis-of-Harry-Potter-books-using-Spacy/assets/98512121/899686cc-3684-4cba-9b09-7ff35351010c)
 
-![image](https://github.com/sruthi004/Character-Analysis-of-Harry-Potter-books-using-Spacy/assets/98512121/9c8c0bb6-9d13-43aa-86fa-94604b59b76d)
+![image](https://github.com/sruthi004/Character-Analysis-of-Harry-Potter-books-using-Spacy/assets/98512121/8ceb9ffb-0394-497e-b0bd-ff3d5c10c00a)
 
 * Finally, graphs were plotted with the characters extracted from all 7 books using NetworkX and Pyvis.
 
-![image](https://github.com/sruthi004/Character-Analysis-of-Harry-Potter-books-using-Spacy/assets/98512121/f4aff0fe-e3bb-445f-9a6e-583f3af3e8e1)
+![image](https://github.com/sruthi004/Character-Analysis-of-Harry-Potter-books-using-Spacy/assets/98512121/9ad3ee26-2330-4d83-b688-42eb9cfafc5c)
 
-![image](https://github.com/sruthi004/Character-Analysis-of-Harry-Potter-books-using-Spacy/assets/98512121/9bdf4cc2-ef67-41a0-9dc9-8cdac44a490c)
+![image](https://github.com/sruthi004/Character-Analysis-of-Harry-Potter-books-using-Spacy/assets/98512121/36fd8ffc-30a4-4907-94c4-317cca852a3a)
 
 
 
